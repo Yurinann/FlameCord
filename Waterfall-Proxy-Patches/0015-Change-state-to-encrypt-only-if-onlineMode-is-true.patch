@@ -1,4 +1,4 @@
-From 501c340474b980137994535738a1ac736b6d0e6a Mon Sep 17 00:00:00 2001
+From 8d3584f63ca8e7e3713cdb111d815fa7f9b555dd Mon Sep 17 00:00:00 2001
 From: foss-mc <69294560+foss-mc@users.noreply.github.com>
 Date: Wed, 16 Dec 2020 18:25:03 +0800
 Subject: [PATCH] Change state to encrypt only if onlineMode is true
@@ -23,5 +23,5 @@ index e9937428..037a305b 100644
          };
  
 -- 
-2.20.1
+2.31.1.windows.1
 

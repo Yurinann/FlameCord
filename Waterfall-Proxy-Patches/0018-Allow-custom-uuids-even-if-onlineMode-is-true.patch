@@ -1,4 +1,4 @@
-From 461651e8a304ff9f57adac8d9c975b2a7e6ce1ea Mon Sep 17 00:00:00 2001
+From 0a0d4f62e65f8680b1de03b1db5740a2ca461e5f Mon Sep 17 00:00:00 2001
 From: foss-mc <69294560+foss-mc@users.noreply.github.com>
 Date: Wed, 16 Dec 2020 18:35:33 +0800
 Subject: [PATCH] Allow custom uuids even if onlineMode is true
@@ -18,5 +18,5 @@ index c6dfa00f..3c67494f 100644
      }
  
 -- 
-2.20.1
+2.31.1.windows.1
 

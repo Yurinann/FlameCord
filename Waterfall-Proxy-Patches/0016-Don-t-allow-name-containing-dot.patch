@@ -1,4 +1,4 @@
-From 355853706ca50aba3dc231b6adee5f5e8bd58548 Mon Sep 17 00:00:00 2001
+From 0d83115b1fc0853dba23e05c637f6465b84b885c Mon Sep 17 00:00:00 2001
 From: foss-mc <69294560+foss-mc@users.noreply.github.com>
 Date: Wed, 16 Dec 2020 18:25:51 +0800
 Subject: [PATCH] Don't allow name containing dot
@@ -28,5 +28,5 @@ index 037a305b..c6dfa00f 100644
              disconnect( bungee.getTranslation( "name_too_long" ) );
              return;
 -- 
-2.20.1
+2.31.1.windows.1
 

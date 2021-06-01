@@ -1,4 +1,4 @@
-From 7fc05a47e12839eb256a9141ab122886ca788522 Mon Sep 17 00:00:00 2001
+From cb8385260139bff0051d1f3215192ee29f8d481e Mon Sep 17 00:00:00 2001
 From: foss-mc <69294560+foss-mc@users.noreply.github.com>
 Date: Wed, 16 Dec 2020 18:24:42 +0800
 Subject: [PATCH] use address & getHostString
@@ -28,5 +28,5 @@ index 0dd2884d..474551d3 100644
              }
              else if ( subChannel.equals( "KickPlayer" ) )
 -- 
-2.20.1
+2.31.1.windows.1
 

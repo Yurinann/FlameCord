@@ -1,4 +1,4 @@
-From cdf91cda29d5b69410c130012de20dba5d7da506 Mon Sep 17 00:00:00 2001
+From b1339815ac4c8b1cf13b1aaef4e8a303699db58b Mon Sep 17 00:00:00 2001
 From: foss-mc <69294560+foss-mc@users.noreply.github.com>
 Date: Wed, 16 Dec 2020 18:06:17 +0800
 Subject: [PATCH] Close connections & Don't flush if not necessary
@@ -184,5 +184,5 @@ index 0c1ecfb8..b3bdfd05 100644
          }
  
 -- 
-2.31.1
+2.31.1.windows.1
 

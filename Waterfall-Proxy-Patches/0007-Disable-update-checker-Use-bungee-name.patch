@@ -1,14 +1,14 @@
-From a8a33b052d445c78560370674f7b287e77396721 Mon Sep 17 00:00:00 2001
+From ff9b10e0c69bac6a397a1727c6fcaa24442d7322 Mon Sep 17 00:00:00 2001
 From: foss-mc <69294560+foss-mc@users.noreply.github.com>
 Date: Wed, 16 Dec 2020 18:00:49 +0800
 Subject: [PATCH] Disable update checker & Use bungee name
 
 
 diff --git a/proxy/src/main/java/net/md_5/bungee/BungeeCordLauncher.java b/proxy/src/main/java/net/md_5/bungee/BungeeCordLauncher.java
-index 6a5193fe..e82073d4 100644
+index 1c2628d3..96db5e5e 100644
 --- a/proxy/src/main/java/net/md_5/bungee/BungeeCordLauncher.java
 +++ b/proxy/src/main/java/net/md_5/bungee/BungeeCordLauncher.java
-@@ -53,25 +53,12 @@ public class BungeeCordLauncher
+@@ -58,25 +58,12 @@ public class BungeeCordLauncher
              return;
          }
  
@@ -70,5 +70,5 @@ index d4fad294..7994c1c1 100644
  
              int maxPlayers = get( "max_players", 1, val );
 -- 
-2.31.1
+2.31.1.windows.1
 

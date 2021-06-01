@@ -1,4 +1,4 @@
-From 8483549f243a6d8aad3574fc2d6235c3326e2740 Mon Sep 17 00:00:00 2001
+From e7398fae24a0519232a9f2b3361ad71c2de29bbe Mon Sep 17 00:00:00 2001
 From: foss-mc <69294560+foss-mc@users.noreply.github.com>
 Date: Wed, 16 Dec 2020 18:07:26 +0800
 Subject: [PATCH] Use elseIfs
@@ -153,5 +153,5 @@ index d54d8539..0dd2884d 100644
                  ProxiedPlayer player = bungee.getPlayer( in.readUTF() );
                  if ( player != null )
 -- 
-2.20.1
+2.31.1.windows.1
 
