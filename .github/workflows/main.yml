@@ -44,12 +44,9 @@ jobs:
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
         scripts/build.sh --jar
-    - name: Update release
-      uses: IsaacShelton/update-existing-release@v1.3.1
+    
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3.1.2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        files: FlameCord-Proxy/bootstrap/target/FlameCord.jar
-        release: Latest
-        tag: latest
-        replace: true
-        updateTag: true
+        name: FlameCord Artifacts
+        path: FlameCord-Proxy/bootstrap/target/*.jar
